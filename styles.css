@@ -75,10 +75,7 @@ main {
     padding: 20px;
 }
 
-.img-container{
-    margin-top: 20%;
-}
-.img-container img{
+main img{
     width: 1000px;
     height: 500px;
     display: block;
