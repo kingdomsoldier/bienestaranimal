@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Cátedra de Bienestar Animal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style></style>
+</head>
+<body class="bg-white bg-cover bg-no-repeat font-sans h-full flex flex-col justify-between" style="background-image: url(sources/background.jpg);">
+
+        <header  class="flex flex-col p-4 items-center">
+            <img src="Logo_Catedra.png" alt="">   
+
+            <!--Barra de Navegacion-->
+                <nav class="hidden md:block">
+                    <ul class="flex font-bold p-4 text-lg  text-white">
+                        <li><a href="#" class="mx-3 hover:underline">Inicio</a></li>
+                        <li><a href="fundamentacion.html" class="mx-3 hover:underline">Fundamentación</a></li>
+                        <li><a href="#" class="mx-3 hover:underline">Historia</a></li>
+                        <li><a href="vision.html" class="mx-3 hover:underline">Visión</a></li>
+                    </ul>
+                </nav>
+
+                <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+                <div id="header" class="hidden justify-between p-4 bg-white shadow-lg fixed w-full top-0 right-0 text-gray-700 font-semibold">
+                    <img src="Logo_Catedra.png" alt="">   
+
+                <!--Barra de Navegacion-->
+                    <nav class="hidden md:block">
+                        <ul class="flex font-bold p-4 text-lg">
+                            <li><a href="#" class="mx-3 hover:underline">Inicio</a></li>
+                            <li><a href="fundamentacion.html" class="mx-3 hover:underline">Fundamentación</a></li>
+                            <li><a href="#" class="mx-3 hover:underline">Historia</a></li>
+                            <li><a href="#" class="mx-3 hover:underline">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <!--Version para movil-->
+                <div id="sidebar" class=" md:hidden fixed bg-opacity-90 right-0 top-0 w-64 h-full bg-gray-800 transform translate-x-full transition-transform duration-300 ease-in-out lg:translate-x-0 lg:static lg:h-auto">
+
+                    <nav>  
+                        <div class="p-4">  
+                            <img src="Logo_Catedra.png" alt="">  
+                            <div class="mt-4 space-y-2">  
+                                <a href="index.html" class="block text-white hover:bg-gray-600 px-2">Inicio</a>  
+                                <a href="#" class="block text-white  px-2">Inicio</a>  
+                                <a href="fundamentacion.html" class="block text-white  px-2">Fundamentación</a>  
+                                <a href="#" class="block text-white  px-2">Contacto</a>  
+                            </div>  
+                        </div>  
+                    </nav>  
+                </div>
+
+                <button id="toggleButton" class="p-2 bg-gray-200 rounded block md:hidden fixed right-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+        </header>
+
+        <!--Main----------------------------------------------------------------------------------------------------------------------------------->
+        <main class=" flex flex-col items-center p-4">
+            <section>
+                    <div class="flex flex-col my-14 border-2 border-s-slate-100 p-6 max-w-screen-md">
+                       <div></div>
+                        <h1 class="text-center text-white font-playfair text-5xl">Catedra Honorifica de 
+                            <span class="block">Bienestar Animal </span>
+                             <span class="block text-lg"><a href="biografia.html" class="hover:underline">Guillermo Manuel Leiva González</a></span>
+                        </h1>  
+                    </div>
+                   
+            </section>
+            <div class="flex justify-center h-200px top-10">
+                <img class="m-x-au" src="sources/animales.jpg" alt="">
+            </div>
+
+            <p class=" bg-gray-50 md:w-1/2 m-10 p-4 shadow-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores ducimus ad assumenda laboriosam architecto id officia provident eius cumque odio dolores quidem, dolorem deleniti! Perferendis quos possimus ad quidem
+            Dignissimos perferendis optio incidunt at iure distinctio laboriosam temporibus nam maxime omnis! Dolor, ut tenetur hic sit ullam neque ipsam odio sequi eveniet facilis magnam tempora, doloremque modi, officia repellendus.
+            atur odio id excepturi accusamus quasi quaerat consectetur recusandae ratione, molestiae asperiores itaque tempore quibusdam? Sunt?
+            Suscipit similique distinctio repudiandae assumenda a veniam et, praesentium nam sunt quo, minima porro, repellat expedita earum quae odit modi sequi enim quasi nulla blanditiis. Praesentium saepe laudantium ad ab!
+            Inventore quibusdam quod temporibus quasi voluptatibus blanditiis eos earum, recusandae distinctio praesentium repellendus sapiente ullam facilis nulla libero. Non earum perferendis nobis ipsam, qui cum quam provident harum consequatur sequi.</p>
+            
+        </main>
+
+        <footer class="bg-gray-800 text-white p-5 text-center">
+            <p>&copy; 2024 Universidad de Ciego de Ávila Máximo Gómez Báez. Todos los derechos reservados.</p>
+            <p>Desarrollado por <strong>Jocsan Rodriguez Rojas</strong></p>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
