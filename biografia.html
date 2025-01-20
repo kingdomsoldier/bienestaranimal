@@ -1,23 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biografía de Guillermo Manuel Leiva González</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="logo_catedra.jpg" type="image/x-icon">
 </head>
-<body class="bg-gray-100 font-sans h-full flex flex-col justify-between">
-    <header  class="flex flex-col p-4 items-center">
-        <img src="Logo_Catedra.png" alt="">   
-
+<body class="bg-gray-50 font-sans h-full flex flex-col justify-between">
+    <header  class="flex justify-between p-4 items-center" style="background-image: url(sources/background_header.jpg);">
+        <div class="flex items-center">
+            <div>
+                <img src="Logo_Catedra.png" alt=""> 
+            </div>
+   
+           <div class="text-white mx-3">
+            <h1 class="text-4xl my-3">Biografía</h1>
+            <h2 class="my-3">CÁTEDRA HONORÍFICA DE BIENESTAR ANIMAL</h2>
+           </div>
+            
+        </div>
         <!--Barra de Navegacion-->
             <nav class="hidden md:block">
-                <ul class="flex font-bold p-4 text-lg">
+                <ul class="flex font-bold p-4 text-lg  text-white">
                     <li><a href="index.html" class="mx-3 hover:underline">Inicio</a></li>
-                    <li><a href="fundamentacion.html" class="mx-3 hover:underline">Fundamentación/a></li>
+                    <li><a href="fundamentacion.html" class="mx-3 hover:underline">Fundamentación</a></li>
                     <li><a href="historia.html" class="mx-3 hover:underline">Historia</a></li>
-                    <li><a href="#" class="mx-3 hover:underline">Noticias</a></li>
-                    <li><a href="#" class="mx-3 hover:underline">Contacto</a></li>
+                    <li><a href="#" class="mx-3 hover:underline">Miembros</a></li>
                 </ul>
             </nav>
 
@@ -31,8 +40,8 @@
                     <ul class="flex font-bold p-4 text-lg">
                         <li><a href="index.html" class="mx-3 hover:underline">Inicio</a></li>
                         <li><a href="fundamentacion.html" class="mx-3 hover:underline">Fundamentación</a></li>
-                        <li><a href="historia.html" class="mx-3 hover:underline">Noticias</a></li>
-                        <li><a href="#" class="mx-3 hover:underline">Contacto</a></li>
+                        <li><a href="historia.html" class="mx-3 hover:underline">Historia</a></li>
+                        <li><a href="#" class="mx-3 hover:underline">Miembros</a></li>
                     </ul>
                 </nav>
             </div>
@@ -46,9 +55,9 @@
                         <img src="Logo_Catedra.png" alt="">  
                         <div class="mt-4 space-y-2">  
                             <a href="index.html" class="block text-white hover:bg-gray-600 px-2">Inicio</a>  
-                            <a href="#" class="block text-white  px-2">Servicios</a>  
-                            <a href="#" class="block text-white  px-2">Acerca de</a>  
-                            <a href="#" class="block text-white  px-2">Contacto</a>  
+                            <a href="fundamentacion.html" class="block text-white  px-2  hover:bg-gray-600">Fundamentación</a>  
+                            <a href="historia.html" class="block text-white  px-2  hover:bg-gray-600">Historia</a>  
+                            <a href="#" class="block text-white  px-2  hover:bg-gray-600">Miembros</a>  
                         </div>  
                     </div>  
                 </nav>  
@@ -60,15 +69,15 @@
                 </svg>
             </button>
     </header>
-    <main class="my-10 px-52 text-justify leading-relaxed">
-        <div class="flex justify-center my-10 px-52">
+    <main class="my-10 px-10 md:px-52 text-justify leading-relaxed">
+        <div class="flex justify-center my-10">
             <figure>
                 <img src="sources/guillermo_manuel.jfif" alt="Foto de Guillermo Manuel Leiva González">
                 <figcaption class="text-center">Guillermo Manuel Leiva González</figcaption>
             </figure>
             
         </div>
-        <div class="text-lg">
+        <section id="vision" class="text-lg">
             <p>
                 Ejerció su profesión en su tierra natal, y desde 1959 se incorpora a la sección de medicina veterinaria del
                  ejército rebelde en la finca “El Dique” en Loma de Tierra, La Habana, donde organizó la recría equina, 
@@ -93,8 +102,7 @@
                      panamericano de medicina y zootecnia, efectuado en República Dominicana. A su regreso sufre 
                      una hemorragia cerebral y fallece, el 19 de agosto, en Curazao.
             </p>
-        </div>
-
+        </section>
         
     </main>
 

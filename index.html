@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Cátedra de Bienestar Animal</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style></style>
+    <link rel="shortcut icon" href="logo_catedra.jpg" type="image/x-icon">
+    <style>
+        .fondo-header{
+            background-image: url(sources/background_header.jpg);
+        }
+    </style>
 </head>
 <body class="bg-white bg-cover bg-no-repeat font-sans h-full flex flex-col justify-between" style="background-image: url(sources/background.jpg);">
 
@@ -15,9 +20,9 @@
             <!--Barra de Navegacion-->
                 <nav class="hidden md:block">
                     <ul class="flex font-bold p-4 text-lg  text-white">
-                        <li><a href="#" class="mx-3 hover:underline">Inicio</a></li>
+                        <li><a href="index.html" class="mx-3 hover:underline">Inicio</a></li>
                         <li><a href="fundamentacion.html" class="mx-3 hover:underline">Fundamentación</a></li>
-                        <li><a href="#" class="mx-3 hover:underline">Historia</a></li>
+                        <li><a href="historia.html" class="mx-3 hover:underline">Historia</a></li>
                         <li><a href="vision.html" class="mx-3 hover:underline">Visión</a></li>
                     </ul>
                 </nav>
@@ -30,9 +35,9 @@
                 <!--Barra de Navegacion-->
                     <nav class="hidden md:block">
                         <ul class="flex font-bold p-4 text-lg">
-                            <li><a href="#" class="mx-3 hover:underline">Inicio</a></li>
+                            <li><a href="index.html" class="mx-3 hover:underline">Inicio</a></li>
                             <li><a href="fundamentacion.html" class="mx-3 hover:underline">Fundamentación</a></li>
-                            <li><a href="#" class="mx-3 hover:underline">Historia</a></li>
+                            <li><a href="historia.html" class="mx-3 hover:underline">Historia</a></li>
                             <li><a href="#" class="mx-3 hover:underline">Contacto</a></li>
                         </ul>
                     </nav>
@@ -47,9 +52,9 @@
                             <img src="Logo_Catedra.png" alt="">  
                             <div class="mt-4 space-y-2">  
                                 <a href="index.html" class="block text-white hover:bg-gray-600 px-2">Inicio</a>  
-                                <a href="#" class="block text-white  px-2">Inicio</a>  
-                                <a href="fundamentacion.html" class="block text-white  px-2">Fundamentación</a>  
-                                <a href="#" class="block text-white  px-2">Contacto</a>  
+                                <a href="#" class="block text-white  px-2  hover:bg-gray-600">Inicio</a>  
+                                <a href="fundamentacion.html" class="block text-white  px-2  hover:bg-gray-600">Fundamentación</a>  
+                                <a href="#" class="block text-white  px-2  hover:bg-gray-600">Contacto</a>  
                             </div>  
                         </div>  
                     </nav>  
@@ -63,8 +68,8 @@
         </header>
 
         <!--Main----------------------------------------------------------------------------------------------------------------------------------->
-        <main class=" flex flex-col items-center p-4">
-            <section>
+        <main class=" flex flex-col items-center p-4 text-justify">
+            <div>
                     <div class="flex flex-col my-14 border-2 border-s-slate-100 p-6 max-w-screen-md">
                        <div></div>
                         <h1 class="text-center text-white font-playfair text-5xl">Catedra Honorifica de 
@@ -73,17 +78,94 @@
                         </h1>  
                     </div>
                    
-            </section>
+            </div>
             <div class="flex justify-center h-200px top-10">
                 <img class="m-x-au" src="sources/animales.jpg" alt="">
             </div>
-
-            <p class=" bg-gray-50 md:w-1/2 m-10 p-4 shadow-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maiores ducimus ad assumenda laboriosam architecto id officia provident eius cumque odio dolores quidem, dolorem deleniti! Perferendis quos possimus ad quidem
-            Dignissimos perferendis optio incidunt at iure distinctio laboriosam temporibus nam maxime omnis! Dolor, ut tenetur hic sit ullam neque ipsam odio sequi eveniet facilis magnam tempora, doloremque modi, officia repellendus.
-            atur odio id excepturi accusamus quasi quaerat consectetur recusandae ratione, molestiae asperiores itaque tempore quibusdam? Sunt?
-            Suscipit similique distinctio repudiandae assumenda a veniam et, praesentium nam sunt quo, minima porro, repellat expedita earum quae odit modi sequi enim quasi nulla blanditiis. Praesentium saepe laudantium ad ab!
-            Inventore quibusdam quod temporibus quasi voluptatibus blanditiis eos earum, recusandae distinctio praesentium repellendus sapiente ullam facilis nulla libero. Non earum perferendis nobis ipsam, qui cum quam provident harum consequatur sequi.</p>
             
+            <section id="mision" class=" bg-gray-50 md:w-1/2 m-10 shadow-2xl text-lg">
+                <header class="fondo-header text-white p-4"><h2 class="text-3xl text-center font-bold">Misión</h2></header>
+                <p class="p-4">
+                    La Cátedra de Bienestar Animal <a href="biografia.html" class="text-blue-600 hover:underline">Guillermo Manuel Leiva González</a> es una estructura académica, multidisciplinaria, interdisciplinaria y 
+                    funcional encargada de propiciar el desarrollo desde sus espacios de acciones de superación e 
+                    investigación, dirigidas a miembros de las comunidades universitarias y la sociedad en general.               
+                </p>
+            </section>
+
+            <section id="vision" class="bg-gray-50 md:w-1/2 m-10 shadow-2xl text-lg">
+                <header class="fondo-header text-white p-4"><h2 class="text-3xl text-center font-bold">Visión</h2></header>
+                <p class="p-4">
+                    Crear una interacción positiva con los animales con la intención de generar beneficios psicosociales 
+                    importantes para el bienestar humano así como propagar una ética del cuidado que puede convertirse en una 
+                    fuerza de cohesión social en el seno de una familia, una comunidad o un negocio, sin olvidar que las 
+                    relaciones positivas con los animales pueden ser motivo de orgullo, interés y camaradería.
+                
+                </p>
+            </section>
+
+            <section id="objetivo-general" class=" bg-gray-50 md:w-1/2 m-10 shadow-2xl text-lg">
+                <header class="fondo-header text-white p-4"><h2 class="text-3xl text-center font-bold">Objetivo General</h2></header>
+                <p class="p-4">
+                    Promover, en miembros de las comunidades universitarias y la sociedad en general desde bases científicas 
+                    relaciones positivas con los animales, independientemente a su objetivo de crianza (productivo, afectivo 
+                    o social).             
+                </p>
+            </section>
+
+            <section id="objetivos-especificos" class=" bg-gray-50 md:w-1/2 m-10 shadow-2xl text-lg">
+                <header class="fondo-header text-white p-4"><h2 class="text-3xl text-center font-bold">Objetivos Específicos</h2></header>
+                
+                <div class="p-4">
+                    <ul class="pl-5 list-disc ">
+                        <li>Promover en miembros de las comunidades universitarias y la sociedad en general la ética en las 
+                            relaciones entre los seres humanos y los animales.
+                        </li>
+                        <li>
+                            Promover la sensación de bienestar o confort de los animales en diferentes sistemas de 
+                            tenencia, manejo y alimentación al tiempo que se refuerce el sentido de amor a ellos en su 
+                            atención y manipulación en las actividades prácticas.
+                        </li>
+    
+                        <li>
+                            Desarrollar acciones de superación e investigación en las Carreras Universitarias y 
+                            especialmente en la Carrera de Medicina Veterinaria.
+                        </li>
+    
+                        <li>
+                            Contribuir con el desarrollo de actividades extensionistas de superación e investigación 
+                            dirigidos a miembros de las comunidades universitarias y la sociedad en general que coadyuven 
+                            a la solución de problemas desde la vía científica.
+                        </li>
+
+                        <li>
+                        	Propiciar el desarrollo de formas de actuación que constituyan la vía para la 
+                            asimilación y puesta en práctica de los conocimientos y las normas morales que favorezcan 
+                            el bienestar animal.
+                        </li>
+                    </ul>
+                </div>
+                
+            </section>
+            
+            <section id="funciones" class=" bg-gray-50 md:w-1/2 m-10 shadow-2xl text-lg">
+                <header class="fondo-header text-white p-4"><h2 class="ttext-3xl text-center font-bold">Funciones</h2></header>
+                
+                <div class="p-4">
+                    <ul class="pl-5 list-disc ">
+                        <li>
+                            Aglutinar en torno a un foro científico profesionales, estudiantes, técnicos y la 
+                            comunidad, interesados en profundizar en el estudio del Bienestar Animal.
+                        </li>
+                        <li>
+                            Estimular la producción, la sistematización y la aplicación de conocimientos que 
+                            enriquezcan la práctica profesional y contribuyen a la solución de problemas desde la vía 
+                            científica.
+                        </li>
+    
+                    </ul>
+                </div>
+                
+            </section>
         </main>
 
         <footer class="bg-gray-800 text-white p-5 text-center">
